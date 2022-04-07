@@ -31,7 +31,7 @@ BinarySearchTree.prototype.contains = function(value){
   return !!this.left && this.left.contains(value)// si value es mejor que this.value pasa a esta linea
   // if(this.value === arg) return true;//si arg es igual this.value
   // if(arg > this.value){// si arg es mayor this.value
-  //   if(!this.right) return false;// si no hay nada en la derecha retorna falso
+  //   if(!this.right) return false;// si no hay nada en la derecha retorna falso.
   //   else return this.right.contains(arg)//
   // }else{ 
     //   if(!this.left) return false;
